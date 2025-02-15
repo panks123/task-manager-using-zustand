@@ -1,0 +1,65 @@
+.task {
+    color: var(--COLOR-GRAY-DARK);
+    border-radius: 4px;
+    min-height: 5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: move;
+    color: #fff;
+}
+
+.PLANNED-task {
+    background-color: #cccccc14;
+}
+.ONGOING-task {
+    background-color: #fffb0514;
+}
+.DONE-task {
+    background-color: #79fe2114;
+}
+
+
+.bottomWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomWrapper .buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.bottomWrapper .buttons button {
+    cursor: pointer;
+}
+
+.status {
+    font-size: small;
+    background-color: var(--COLOR-GRAY-LIGHT);
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    color: #000;
+}
+
+.PLANNED {
+    background-color: var(--COLOR-GRAY-LIGHT);
+}
+
+.ONGOING {
+    background-color: var(--COLOR-ONGOING);
+}
+
+.DONE {
+    background-color: var(--COLOR-DONE);
+}
+
+.timestampWrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: small;
+}

@@ -1,0 +1,14 @@
+:root {
+  --COLOR-GRAY: #333333;
+  --COLOR-GRAY-DARK: #222222;
+  --COLOR-GRAY-LIGHT: #cccccc;
+  --COLOR-ONGOING: #fffb05;
+  --COLOR-DONE: #79fe21;
+  --COLOR-PLANNED: #fffbfb;
+  font-family: Helvetica;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

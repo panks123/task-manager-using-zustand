@@ -1,0 +1,16 @@
+.App {
+  background-color: var(--COLOR-GRAY);
+}
+.headerTitle {
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.TaskManager {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+}
